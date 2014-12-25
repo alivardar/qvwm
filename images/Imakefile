@@ -1,0 +1,25 @@
+XCOMM
+XCOMM Imakefile for qvwm pixmaps
+XCOMM
+
+#include "../Config.tmpl"
+
+PIXMAPS = \
+def16.xpm \
+def32.xpm \
+exit32.xpm \
+find32.xpm \
+help32.xpm \
+icon16.xpm \
+icon32.xpm \
+quit32.run \
+run32.xpm \
+setting32.xpm \
+taskbar16.xpm \
+xcalc16.xpm \
+xterm16.xpm \
+xterm32.xpm \
+xv16.xpm \
+xv32.xpm
+
+InstallMultiple($(PIXMAPS),$(IMGDIR))

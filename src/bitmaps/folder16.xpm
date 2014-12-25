@@ -1,0 +1,40 @@
+/* XPM */
+static char *folder16[] = {
+/* width height num_colors chars_per_pixel */
+"    16    16       17            1",
+/* colors */
+". c #000000",
+"# c #00007f",
+"a c #0090ff",
+"b c None",
+"c c #2f2f2f",
+"d c #2f902f",
+"e c #602fff",
+"f c #7f0000",
+"g c #7f7f00",
+"h c #808080",
+"i c #bfbfbf",
+"j c #cfcf60",
+"k c #ff0000",
+"l c #ffcf90",
+"m c #ffff2f",
+"n c #ffff90",
+"o c #ffffff",
+/* pixels */
+"bbbbbbbb.gggggbb",
+"bbbbbbb.gnnnnogb",
+"bbggggggjjjjjjjg",
+"b.jnlnlnlnlnnnog",
+"b.jjjjjjjjjlnnog",
+"hhhhhhhhhhhhlnog",
+"c##########hnnog",
+"c##########hlnog",
+"ciiiiiiiiiihnlog",
+"ciooooooooihlnog",
+"ciooeoofmoihnlog",
+"cioeadofkfihjjjg",
+"cioddooofoih...b",
+"ciooooooooihbbbb",
+"ciiiiiiiiiihbbbb",
+"ccccccccccccbbbb"
+};

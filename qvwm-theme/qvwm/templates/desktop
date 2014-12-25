@@ -1,0 +1,13 @@
+[Shortcuts]
+"My Computer"      "mycomputer.xpm"     "thunar"  0,0
+"Xterm"      "terminal.xpm"     "xterm"  0,150
+"Add/Remove"      "addremove.xpm"     "xterm -e pkgtool"  0,75
+"Audacious"      "xmms.xpm"     "audacious"  825,0
+"gmplayer"      "xine.xpm"     "gmplayer"  675,0
+"Glade"      "glade.xpm"     "glade-3"  300,0
+"aumix"      "terminal.xpm"     "aumix"  750,0
+"FireFox"      "firefox.xpm"     "firefox"  0,225
+"Gimp"      "gimp.xpm"     "gimp"  225,0
+"pgadmin3"      "pgadmin3.xpm"     "pgadmin3"  375,0
+"soffice"      "soffice.xpm"     "soffice"  450,0
+"opera"      "/usr/share/opera/images/opera_32x32.png"     "opera"  0,300

@@ -1,0 +1,371 @@
+;
+;  kanji.qvwmrc
+;
+;    設定の詳細については qvwm.jman を読んで下さい
+;
+
+[Variables]
+LocaleName		= "ja_JP.EUC"	; このファイルで使われるロケール名
+ImagePath		= "@IMGDIR@"
+SoundPath		= "@SNDDIR@"
+RestartOnFailure	= True		; seg faultやbus errorで再起動
+UseDebugger		= True
+HourGlassTime		= 1000
+ImageAnimation		= True
+
+; ウィンドウ
+OpaqueMove		= True		; フルドラッグで移動するかどうか
+OpaqueResize		= True		; フルドラッグでサイズ変更するかどうか
+FullOpaque		= True		; 
+ClickToFocus		= True		; ウィンドウのクリックでアクティブに
+FocusOnMap		= False		; 表示されたウィンドウをアクティブに
+ClickingRaises		= True		; クライアント領域のクリックでレイズ
+NoDesktopFocus		= True		; デスクトップへのフォーカス移動抑制
+NoFocusChangeMask	= Shift		; prevent focus change by this key
+TitlebarMotion		= True		; 最小化・最大化の際にアニメーション
+TitlebarMotionSpeed	= 10		; 最小化・最大化にかかる時間
+AutoRaise		= True		; オートレイズ
+AutoRaiseDelay		= 300		; オートレイズするまでの時間
+UseInfoDisplay		= True		; 移動・サイズ変更時に情報を表示
+GradWindowMapStyle	= Normal	; ウィンドウの表示・非表示の仕方
+GradWindowMapSpeed	= 10		; 徐々に表示・非表示する時の速度
+MinimizeButtonMessage	= "最小化"
+MaximizeButtonMessage	= "最大化"
+CloseButtonMessage	= "閉じる"
+RestoreButtonMessage	= "元のサイズに戻す"
+
+; 仮想画面
+PagingResistance	= 250		; ページ切替えの際の抵抗
+PagingMovement		= 100		; ページ切替えの際の移動量(%)
+PagingBeltSize		= 2		; 画面端のページ切替え可能領域
+TopLeftPage		= -1-1		; 仮想画面の左上ページ
+PagingSize		= 3x3		; 仮想画面の大きさ
+PagingSpeed		= 5		; ページを切り替える段階数
+
+; ページャ
+UsePager		= True		; ページャ使用の有無
+PagerGeometry		= 72x72-0-0	; ページャの位置・大きさ
+OnTopPager		= False		; ページャを常に手前に
+
+; タスクバー
+UseTaskbar		= True		; タスクバー使用の有無
+TaskbarPosition		= Bottom	; 初期位置
+TaskbarRows		= 1		; 高さの初期値
+TaskbarAutoHide		= False		; タスクバーを自動的に隠すかどうか
+RestoreMinimize		= True		; ボタンを最小化にも使えるようにするか
+NoResizeOverTaskbar	= False		; タスクバーを越えてサイズ変更しない
+GradTaskbarMotion	= True		; タスクバーを徐々に隠す
+GradTaskbarMotionSpeed	= 10		; タスクバーを隠す速度
+TaskbarShowDelay	= 0		; delay for automatic show (ms)
+TaskbarHideDelay	= 500		; delay for automatic hide (ms)
+OnTopTaskbar		= True		; タスクバーを常に手前に
+TaskbarButtonInScr	= False		; 画面内のウィンドウのボタンだけ表示
+StartButtonTitle	= "スタート"	; スタートボタンの文字列
+StartButtonMessage	= "このボタンから始めます。"
+
+; タスクバーの時計
+UseClock		= True
+ClockLocaleName		= "ja_JP.eucJP"
+ClockFormat		= "%R"			; 16:50
+;ClockFormat		= "%p%l:%M"		; 午後 4:50
+;ClockFormat		= "%Y年%b%d日%a %R"	; 1998年 6月22日(月) 18:44
+;ClockFormat		= "%T"			; 16:50:59
+ClockMessageFormat	= "%Y年%B%e日"		; 1998年6月22日
+
+; メニュー
+MenuDelayTime		= 300		; ポイントして表示されるまでの時間
+MenuDelayTime2		= 300		; フォーカスを失なって消えるまでの時間
+GradMenuMap		= True		; メニューを徐々に表示
+GradMenuMapSpeed	= 5		; メニューを表示する速度
+
+; ダイアログ
+UseExitDialog		= True		; 終了ダイアログ使用の有無
+UseConfirmDialog	= False		; 終了確認ダイアログ使用の有無
+
+; ドラッグ
+EdgeResistance		= 50		; 画面端の抵抗
+SnappingMove		= 5		; 他のウィンドウに吸いつく距離
+SnappingEdges		= 5		; 画面端に吸いつく距離
+NoSnappingMask		= Alt		; 吸いつき等を一時的に禁止するキー
+ShiftMoveRatio		= 4.0		; シフト+カーソルでの移動の比率
+CtrlMoveRatio		= 0.5		; コントロール+カーソルでの移動の比率
+LockDragState		= False		; 再度クリックするまでドラッグを継続
+
+; 配置
+SmartPlacement		= True		; ウィンドウを重ならないように配置
+
+; ダブルクリック
+DoubleClickTime		= 400		; 2 回のクリックの最大間隔
+DoubleClickRange	= 5		; 2 回のクリックの最大距離
+
+; ツールチップ
+TooltipDelayTime        = 500
+TooltipMotionSpeed      = 5
+TooltipDisplayTime	= 6000
+
+; スクリーンセーバー
+ScreenSaver		= "xlock"	; スクリーンセーバープログラム
+ScreenSaverDelay	= 600		; スクリーンセーバーを 10 分後に起動
+
+; サウンド
+EnableSound		= True		; サウンドを有効にする
+EnableAlsa		= False		; ALSA を使う(Linux のみ)
+EnableEsd		= False		; EsounD を使う
+
+; テーマ
+include			@QVWMDIR@/default.qvwm-theme
+
+
+;**********************************************************************
+; スタートアップ
+;
+;    qvwm を起動する時だけ実行されます。
+;**********************************************************************
+[Startup]
+;"PAGE[1, 0, Navigator] netscape"
+;"PAGE[0, 1, mule] mule"
+
+
+;**********************************************************************
+; メニュー設定
+;    <項目名> <画像名> <動作(ファイル名またはqvwm内部関数)>
+;    or
+;    <項目名> <画像名>
+;    +
+;        ... (子メニュー)
+;    -
+;
+;    \&? はそのメニュー項目に対するショートカットキー'?'を設定します。
+;**********************************************************************
+[StartMenu]
+"プログラム(\&P)"	""
++
+	"ミュール(\&M)"		"emacs16.ani"	"mule"
+	"目玉(\&E)"		"xeyes16.ani"	"xeyes"
+	"Ｘｍａｇ(\&G)"		""		"xmag"
+	"画面再描画(\&F)"	""		"xrefresh"
+	"シェル(\&S)"		""
+	+
+		"Ｘｔｅｒｍ(\&X)"	"xterm16.xpm"	"xterm"
+		"Ｋｔｅｒｍ(\&K)"	"xterm16.xpm"	"kterm"
+		"Ｒｘｖｔ(\&R)"		"xterm16.xpm"	"rxvt"
+	-
+	"ビュワー(\&V)"		""
+	+
+		"ＸＶ(\&X)"		""		"xv"
+		"ゴーストビュー(\&G)"	""		"ghostview"
+		"Ｘｄｖｉ(\&D)"		""		"xdvi"
+		"Ｘａｎｉｍ(\&A)"	""		"xanim"
+		"ＭｐｅｇＰｌａｙ(\&M)"	""		"mpeg_play"
+	-
+	"ブラウザ(\&B)"	""
+	+
+		"モザイク(\&M)"		""		"xmosaic"
+		"ネットスケープ(\&N)"	"netscape16.ani" "netscape"
+	-
+	"ゲーム(\&G)"	""
+	+
+		"迷路(\&M)"		""		"maze"
+		"Ｉｃｏ(\&I)"		""		"ico"
+	-
+	"時計(\&C)"		""
+	+
+		"Ｘｃｌｏｃｋ(\&X)"	""		"xclock"
+		"Ｏｃｌｏｃｋ(\&O)"	""		"oclock"
+	-
+-
+"設定(\&S)"		"setting32.ani"
++
+	"タスクバー(\&T)"	"taskbar16.ani"
+	+
+		"下(\&B)"	""		QVWM_BOTTOM
+		"上(\&T)"	""		QVWM_TOP
+		"左(\&L)"	""		QVWM_LEFT
+		"右(\&R)"	""		QVWM_RIGHT
+	-
+-
+"検索(\&F)"			"find32.ani"	""
+"ヘルプ(\&H)"			"help32.xpm"	"xman"
+"ファイル名を指定して実行(\&R)"	"run32.ani"	"kterm -geometry 60x1"
+""				""		QVWM_SEPARATOR
+"qvwm の終了(\&E)"		"exit32.ani"	QVWM_EXIT
+
+;**********************************************************************
+; コントロールメニュー設定
+;**********************************************************************
+[CtrlMenu]
+"元のサイズに戻す(\&R)"	""		QVWM_RESTORE
+"移動(\&M)"		""		QVWM_MOVE
+"サイズ変更(\&S)"	""		QVWM_RESIZE
+"最小化(\&N)"		""		QVWM_MINIMIZE
+"最大化(\&X)"		""		QVWM_MAXIMIZE
+"一番下に(\&L)"		""		QVWM_LOWER
+""			""		QVWM_SEPARATOR
+"常に手前に"		""		QVWM_TOGGLE_ONTOP
+"Sticky"		""		QVWM_TOGGLE_STICKY
+""			""		QVWM_SEPARATOR
+"\B閉じる(\&C)"		""		QVWM_CLOSE
+"強制終了"		""		QVWM_KILL
+
+;**********************************************************************
+; デスクトップメニュー
+;**********************************************************************
+[DesktopMenu]
+"再描画(\&F)"		""		"xrefresh"
+"再起動(\&S)"		""		QVWM_RESTART
+"twm"			""		"EXEC twm"
+""			""		QVWM_SEPARATOR
+"\&kterm"		""		"kterm"
+""			""		QVWM_SEPARATOR
+"アイコン整列(\&I)"	""		QVWM_LINEUP_ICON
+"ページ切替え(\&P)"	""
++
+	"上へ(\&U)"		""		QVWM_UP_PAGING
+	"下へ(\&D)"		""		QVWM_DOWN_PAGING
+	"左へ(\&L)"		""		QVWM_LEFT_PAGING
+	"右へ(\&R)"		""		QVWM_RIGHT_PAGING
+-
+""			""		QVWM_SEPARATOR
+"qvwmの終了(\&E)"	""		QVWM_EXIT
+
+
+;**********************************************************************
+; アイコンメニュー設定
+;**********************************************************************
+[IconMenu]
+"実行(\&E)"		""		QVWM_EXEC_ICON
+"削除(\&D)"		""		QVWM_DELETE_ICON
+
+
+;**********************************************************************
+; タスクバーメニュー設定
+;**********************************************************************
+[TaskbarMenu]
+"重ねて表示(\&O)"	""		QVWM_OVERLAP
+"左右に並べて表示(\&H)"	""		QVWM_TILE_HORZ
+"上下に並べて表示(\&V)"	""		QVWM_TILE_VERT
+""			""		QVWM_SEPARATOR
+"全て最小化(\&M)"	""		QVWM_MINIMIZE_ALL
+""			""		QVWM_SEPARATOR
+"位置(\&P)"		""
++
+	"下(\&B)"		""		QVWM_BOTTOM
+	"上(\&T)"		""		QVWM_TOP
+	"左(\&L)"		""		QVWM_LEFT
+	"右(\&R)"		""		QVWM_RIGHT
+-
+""			""		QVWM_SEPARATOR
+"自動的に隠す"		""		QVWM_TOGGLE_AUTOHIDE
+
+
+;**********************************************************************
+; ショートカット設定
+;    <タイトル> <画像名> <外部コマンド> [<x>][, <y>]
+;      or
+;    <タイトル> <画像名> <qvwm内部関数名> [<x>][, <y>]
+;
+;    外部コマンドには以下の修飾子の一つを指定できます。
+;       PAGE[<x>, <y>, <識別子>] はウィンドウを(x, y)ページに配置します。
+;       識別子は[Indicator]セクションのもの同じです。
+;       PAGECUR[<識別子>] はウィンドウをショートカットがダブルクリック
+;       されたページに配置します。
+;       これらの修飾子は他のセクションの外部コマンドでも有効です。
+;
+;    ピックスマップのサイズはIconSizeに指定したサイズです。(デフォルトは
+;    32x32)
+;**********************************************************************
+[Shortcuts]
+"ミュール"		"emacs32.ani"	"PAGE[1, 0, mule] mule"
+"ＸＶ"			"xv32.xpm"	"xv"
+"Ｋｔｅｒｍ"		"xterm32.ani"	"kterm"
+"目玉"			"xeyes32.ani"	"xeyes"
+"ネスケ"		"netscape32.ani" "PAGECUR[Navigator] netscape"
+"終了"			""		QVWM_EXIT
+"電卓"			"xcalc32.ani"	"xcalc"		!1, 0
+
+
+;**********************************************************************
+; ショートカットキー設定
+;    <キー> <修飾キー> <qvwm内部関数>
+;
+;    キーのシンボルについては/usr/include/X11/keysymdef.hを見て下さい。
+;    AltとMetaは区別されます。
+;**********************************************************************
+[ShortCutKeys]
+F4		Alt		QVWM_CLOSE
+Escape		Ctrl		QVWM_POPUP_START_MENU
+Escape		Alt		QVWM_CHANGE_WIN
+Escape		Alt|Shift	QVWM_CHANGE_WIN_BACK
+Delete		Alt		QVWM_CHANGE_WIN_INSCR
+Delete		Alt|Shift	QVWM_CHANGE_WIN_BACK_INSCR
+Tab		Alt		QVWM_SWITCH_TASK
+Tab		Alt|Shift	QVWM_SWITCH_TASK
+space		Alt		QVWM_POPUP_MENU
+Insert		Alt		QVWM_DESKTOP_FOCUS
+BackSpace	Alt		QVWM_POPUP_DESKTOP_MENU
+Left		Ctrl		QVWM_LEFT_PAGING
+Right		Ctrl		QVWM_RIGHT_PAGING
+Up		Ctrl		QVWM_UP_PAGING
+Down		Ctrl		QVWM_DOWN_PAGING
+Up		Ctrl|Alt	QVWM_RAISE
+Down		Ctrl|Alt	QVWM_LOWER
+Return		Alt		QVWM_EXPAND
+Left		Alt		QVWM_EXPAND_LEFT
+Right		Alt		QVWM_EXPAND_RIGHT
+Up		Alt		QVWM_EXPAND_UP
+Down		Alt		QVWM_EXPAND_DOWN
+s		Alt		QVWM_SHOW_TASKBAR
+h		Alt		QVWM_HIDE_TASKBAR
+F1		Alt		"xman"
+;#22		None		QVWM_POPUP_START_MENU
+
+
+;**********************************************************************
+; アプリケーション毎の属性設定
+;    <アプリケーション> <属性,...>
+;**********************************************************************
+[Applications]
+"xbiff"		STICKY, NO_FOCUS
+"console"	STICKY, NO_TITLE
+"Emacs"		SMALL_PIX="emacs16.ani", LARGE_PIX="emacs32.ani"
+"KTerm"		SMALL_PIX="xterm16.xpm", LARGE_PIX="xterm32.ani"
+"Netscape"	SMALL_PIX="netscape16.ani", LARGE_PIX="netscape32.ani"
+"XCalc"		SMALL_PIX="xcalc16.xpm", LARGE_PIX="xcalc32.ani", NO_BORDER_EDGE
+"XEyes"		SMALL_PIX="xeyes16.ani", LARGE_PIX="xeyes32.ani", NO_BORDER
+"xv"		SMALL_PIX="xv16.xpm", LARGE_PIX="xv32.xpm"
+"XClock"	NO_TBUTTON, NO_BORDER_EDGE
+"oclock"	NO_TITLE, NO_BORDER
+"Netscape: subprocess diagnostics (stdout/stderr)"	CLOSE_SOON
+"Netscape Download"	ONTOP
+"desktop_icon"	STICKY, NO_FOCUS, NO_TBUTTON
+"panel"		STICKY, NO_FOCUS, NO_TBUTTON
+
+
+;**********************************************************************
+; インジケータ設定
+;    <識別示> <ファイル名> 
+;
+;    識別示はタイトル名、リソース名、リースクラス名のいずれかです。
+;**********************************************************************
+[Indicators]
+"xbiff"		"xbiff"
+"XEyes"		"xeyes"
+"xload"		"xload -nolabel -update 5 -bg gray"
+
+
+;**********************************************************************
+; 終了ダイアログ設定
+;    <部品名> <文字列または画像名> (<機能>)
+;**********************************************************************
+[ExitDialog]
+Title		"qvwm の終了"
+StaticText	"次の方法で終了してよろしいですか？"
+RadioButton	"qvwm を終了する"			QVWM_EXIT
+RadioButton	"qvwm を再起動する"			QVWM_RESTART
+RadioButton	"twmを起動する"				"EXEC twm"
+IconImage	"quit32.ani"
+OKButton	"はい(\&Y)"
+CancelButton	"いいえ(\&N)"
+HelpButton	"ヘルプ(\&H)"
+
+;include		~/.qvwmrc.local

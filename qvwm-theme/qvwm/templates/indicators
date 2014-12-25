@@ -1,0 +1,6 @@
+[Indicators]
+"xload"		"xload -nolabel -update 1 -bg gray"
+"qvwm-net"	"qvwm-net --device eth0"
+"qvwm-net"	"qvwm-net --device eth1"
+"qvwm-net"	"qvwm-net --device ra0"
+"qvwm-sound"	"qvwm-sound --exe aumix"

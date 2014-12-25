@@ -1,0 +1,13 @@
+; sounds
+;SystemStartSound	= "chimes.wav"
+;SystemExitSound	= "chimes.wav"
+;SystemRestartSound	= "chimes.wav"
+;MaximizeSound		= ""
+;MinimizeSound		= ""
+;RestoreUpSound		= ""
+;RestoreDownSound	= ""
+;ExpandSound		= ""
+;OpenSound		= ""
+;CloseSound		= ""
+;MenuPopupSound		= ""
+;MenuCommandSound	= ""

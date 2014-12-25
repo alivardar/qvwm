@@ -1,0 +1,29 @@
+/* XPM */
+static char *icon16[] = {
+/* width height num_colors chars_per_pixel */
+"    16    16        6            1",
+/* colors */
+". c #000000",
+"# c #0000bf",
+"a c #7f7f7f",
+"b c #bfbfbf",
+"c c None",
+"d c #ffffff",
+/* pixels */
+"cccccccccccccccc",
+"aaaaaaaaaaaaaaaa",
+".abbbbbbbbbbbbba",
+".a############ba",
+".a.d.d.d######ba",
+".aaaaaaaaaaaaaba",
+".addddddddddddba",
+".addddddddddddba",
+".addddddddddddba",
+".addddddddddddba",
+".addddddddddddba",
+".addddddddddddba",
+".addddddddddddba",
+".aaaaaaaaaaaaaaa",
+"................",
+"cccccccccccccccc"
+};

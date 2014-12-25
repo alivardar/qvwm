@@ -1,0 +1,83 @@
+[StartMenu]
+"\&Terminal"	"terminal.xpm"	"xterm"
+""			""		QVWM_SEPARATOR
+"\&Programs"	""
++
+
+	"\&System Management"	"def16.xpm"
+	+
+		"\&Process Management"	"xterm16.xpm"		"gnome-system-monitor"
+		"\&System Log Viewer"	"xterm16.xpm"		"gnome-system-log"
+		"\&Package Management"	"xterm16.xpm"		"xterm -e pkgtool"
+		"\&netconfig"	"xterm16.xpm"		"xterm -e netconfig"		
+		"\&xwmconfig"	"xterm16.xpm"		"xterm -e xwmconfig"			
+	-
+	
+	"\&Multimedia"	"def16.xpm"
+	+
+		"\&Xine"	"xterm16.xpm"		"xine"		
+		"\&Mplayer"	"xterm16.xpm"		"gmplayer"
+		"\&Gqview"	"xterm16.xpm"		"gqview"
+		"\&Audacious"	"xmms16.xpm"		"audacious"		
+		"\&Aumix"	"ses.xpm"		"aumix"		
+		"\&Gimp"	"gimp16.xpm"		"gimp"	
+		"\&Realplayer"	"xterm16.xpm"		"realplay"			
+	-
+	"\&Network"	"def16.xpm"
+	+
+		"\&Firefox"	"mozilla16.xpm" "firefox"
+		"\&Opera"	"mozilla16.xpm" "opera"
+		"\&Sylpheed"	"xterm16.xpm" "sylpheed"
+		"\&Gftp"	"xterm16.xpm" "gftp"		
+		"\&Gaim"	"xterm16.xpm" "gaim"		
+		"\&XChat"	"xterm16.xpm" "xchat"		
+		"\&Pine"	"xterm16.xpm"		"xterm -e pine"		
+		"pyNeighborhood"	"xterm16.xpm"	"pyNeighborhood"
+		"Ethereal"	"ethereal16.xpm"	"ethereal"		
+	-
+	"\&Games"		"def16.xpm"
+	+
+		"\&quake3"	"xterm16.xpm"		"quake3"		
+		"\&gltron"	"xterm16.xpm"		"gltron"		
+		"\&Xgammon"	"xterm16.xpm"		"xgammon"		
+		"\&Xkobo"	"xterm16.xpm"		"xkobo"				
+		"\&Chess"	"xterm16.xpm"		"xboard"	
+	-
+	"\&Development tools"	"def16.xpm"
+	+
+		"\&Glade"	"glade16.xpm"		"glade-3"
+		"\&Anjuta"	"anjuta16.xpm"		"anjuta"
+		"\&Lazarus"	"anjuta16.xpm"		"startlazarus"		
+		"\&pgaccess"	"anjuta16.xpm"		"pgaccess"
+		"\&Designer"	"xterm16.xpm"		"designer"		
+		"\&Bluefish"	"xterm16.xpm"		"bluefish -s"
+		"\&Geany"	"xterm16.xpm"		"geany"
+	-
+	"\&Utils"	"def16.xpm"
+	+
+		"\&xterm"	"xterm16.xpm"	"xterm"
+		"\&rxvt"	"xterm16.xpm"	"rxvt"		
+		"\&mc"	"xterm16.xpm"	"xterm -e mc"
+		"\&Snapshot-xv"	"xterm16.xpm"	"xv"
+		"\&Xkill"	"xterm16.xpm"	"xkill"
+
+	-
+		
+-
+"\&Settings"	"settings.xpm"
++
+	"\&Background Image"	""	"qvwm-background"
+	"\&Desktop Icons"	""	"xterm -e mcedit $HOME/.qvwm/desktop"
+	"\&Indicators"		""	"xterm -e mcedit $HOME/.qvwm/indicators"
+	"\&Menu Settings"	""	"xterm -e mcedit $HOME/.qvwm/menu"
+	"\&Sound Settings"	""	"xterm -e mcedit $HOME/.qvwm/sound"
+	"\&Startup Settings"	""	"xterm -e mcedit $HOME/.qvwm/startup"
+	""			""	QVWM_SEPARATOR
+	"\&Qvwm General Settings"	"logo16.xpm" "xterm -e mcedit /usr/local/share/qvwm/system.qvwmrc"	
+	"\&Qvwm Theme Settings"	"logo16.xpm" "xterm -e mcedit /usr/local/share/qvwm/default.qvwm-theme"
+-
+"\&Find"	"find.xpm"	"gnome-search-tool"
+"\&Help"	"help.xpm"	"xman"
+"\&Run"		"run.xpm"	"qvwm-run"
+""			""	QVWM_SEPARATOR
+"\&Qvwm Exit "	"exit.xpm"	QVWM_EXIT

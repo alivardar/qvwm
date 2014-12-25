@@ -1,0 +1,93 @@
+;**********************************************************************
+; Menu configuration
+;    <item name> <pixmap name> <action(exec file or qvwm func)>
+;    or
+;    <item name> <pixmap name>
+;    +
+;        ... (child menu)
+;    -
+;
+;    The third parameter is program, internal command (begining at
+;    QVWM_), or next section name.
+;    \&? sets a shortcut key '?' for the menu item.
+;**********************************************************************
+[StartMenu]
+"\&Terminal"	"terminal.xpm"	"rxvt"
+"\&Anjuta"	"anjuta.xpm"	"anjuta"
+""			""		QVWM_SEPARATOR
+"\&Programs"	""
++
+
+	"\&System Management"	"def16.ani"
+	+
+		"\&Process Management"	"xterm16.xpm"		"gnome-system-monitor"
+		"\&System Log Viewer"	"xterm16.xpm"		"gnome-system-log"
+		"\&Package Management"	"xterm16.xpm"		"xterm -e pkgtool"
+		"\&netconfig"	"xterm16.xpm"		"xterm -e netconfig"		
+		"\&xwmconfig"	"xterm16.xpm"		"xterm -e xwmconfig"			
+	-
+	
+	"\&Multimedia"	"def16.ani"
+	+
+		"\&Xine"	"xterm16.xpm"		"xine"		
+		"\&Mplayer"	"xterm16.xpm"		"gmplayer"
+		"\&Gqview"	"xterm16.xpm"		"gqview"
+		"\&XMMS"	"xmms16.xpm"		"gqview"		
+		"\&Aumix"	"ses.xpm"		"aumix"		
+		"\&Gimp"	"gimp16.xpm"		"gimp"	
+		"\&Realplayer"	"xterm16.xpm"		"realplay"			
+	-
+	"\&Network"	"def16.ani"
+	+
+		"\&MozillaFirebird"	"mozilla16.xpm" "MozillaFirebird"
+		"\&Mozilla"	"mozilla16.xpm" "mozilla"
+		"\&Sylpheed"	"xterm16.xpm" "sylpheed"
+		"\&Gftp"	"xterm16.xpm" "gftp"		
+		"\&Licq"	"xterm16.xpm" "licq"		
+		"\&XChat"	"xterm16.xpm" "xchat"		
+		"\&ppp-go"	"xterm16.xpm" "ppp-go"
+		"\&ppp-off"	"xterm16.xpm" "ppp-off"		
+		"\&gtkdial"	"xterm16.xpm" "gtkdial"		
+		"\&Nt Downloader"	"xterm16.xpm" "nt"		
+		"\&Pine"	"xterm16.xpm"		"xterm -e pine"		
+		"LinNeighborhood"	"xterm16.xpm"	"LinNeighborhood"
+		"Ethereal"	"ethereal16.xpm"	"ethereal"		
+	-
+	"\&Games"		"def16.ani"
+	+
+		"\&quake3"	"xterm16.xpm"		"quake3"		
+		"\&gltron"	"xterm16.xpm"		"gltron"		
+		"\&Xgammon"	"xterm16.xpm"		"xgammon"		
+		"\&Xkobo"	"xterm16.xpm"		"xkobo"				
+		"\&Chess"	"xterm16.xpm"		"xboard"	
+	-
+	"\&Development tools"	"def16.ani"
+	+
+		"\&Glade"	"glade16.xpm"		"glade-2"
+		"\&Anjuta"	"anjuta16.xpm"		"anjuta"
+		"\&Kylix"	"anjuta16.xpm"		"startkylix"		
+		"\&pgaccess"	"anjuta16.xpm"		"pgaccess"
+		"\&Kdevelop"	"xterm16.xpm"		"kdevelop"
+		"\&Designer"	"xterm16.xpm"		"designer"		
+		"\&Bluefish"	"xterm16.xpm"		"bluefish -s"				
+	-
+	"\&Utils"	"def16.ani"
+	+
+		"\&xterm"	"xterm16.xpm"	"xterm"
+		"\&mc"	"xterm16.xpm"	"xterm -e mc"
+		"\&Snapshot-xv"	"xterm16.xpm"	"xv"
+		"\&Xkill"	"xterm16.xpm"	"xkill"
+
+	-
+		
+-
+"\&Settings"	"setting32.ani"
++
+	"\&Qvwm General Settings"	"taskbar16.ani" "xterm -e mcedit /usr/local/share/qvwm/system.qvwmrc"	
+	"\&Qvwm Theme Settings"	"taskbar16.ani" "xterm -e mcedit /usr/local/share/qvwm/default.qvwm-theme"
+-
+"\&Bul"	"find32.ani"	"gnome-search-tool"
+"\&Help"	"help32.xpm"	"xman"
+"\&Run"		"run32.ani"	"qvwmrun"
+""			""		QVWM_SEPARATOR
+"\&Qvwm Exit "	"exit32.ani"	QVWM_EXIT
