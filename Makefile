@@ -13,7 +13,7 @@
 # needs automake 1.4; don't check for gnu specific files
 
 
-SHELL = /bin/sh
+SHELL = /bin/bash
 
 srcdir = .
 top_srcdir = .
@@ -47,7 +47,7 @@ AUTOCONF = autoconf
 AUTOMAKE = automake
 AUTOHEADER = autoheader
 
-INSTALL = /usr/bin/ginstall -c
+INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_SCRIPT = ${INSTALL}
@@ -63,18 +63,18 @@ CC = gcc
 CPP = gcc -E
 CXX = g++
 ESD_CFLAGS = 
-ESD_CONFIG = /usr/bin/esd-config
-ESD_LIBS = -L/usr/lib -lesd -laudiofile -lm
+ESD_CONFIG = no
+ESD_LIBS = 
 GDK_IMLIB_CFLAGS = @GDK_IMLIB_CFLAGS@
 GDK_IMLIB_LIBS = @GDK_IMLIB_LIBS@
 IMGDIR = /usr/local/share/qvwm/images
-IMLIB_CFLAGS = -I/usr/X11R6/include
-IMLIB_CONFIG = /usr/bin/imlib-config
-IMLIB_LIBS = -L/usr/lib -lImlib -ljpeg -ltiff -lungif -lpng -lz -lm -lXext -L/usr/X11R6/lib -lSM -lICE -lXext -lX11
+IMLIB_CFLAGS = 
+IMLIB_CONFIG = no
+IMLIB_LIBS = 
 LEX = flex
 LN_S = ln -s
 MAINT = #
-MAKEINFO = makeinfo
+MAKEINFO = /Projects/qvwm/missing makeinfo
 PACKAGE = qvwm
 PATH_RM = /bin/rm
 QVWMDIR = /usr/local/share/qvwm

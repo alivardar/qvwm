@@ -11,7 +11,7 @@
 # PARTICULAR PURPOSE.
 
 
-SHELL = /bin/sh
+SHELL = /bin/bash
 
 srcdir = .
 top_srcdir = ..
@@ -45,7 +45,7 @@ AUTOCONF = autoconf
 AUTOMAKE = automake
 AUTOHEADER = autoheader
 
-INSTALL = /usr/bin/ginstall -c
+INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_SCRIPT = ${INSTALL}
@@ -61,18 +61,18 @@ CC = gcc
 CPP = gcc -E
 CXX = g++
 ESD_CFLAGS = 
-ESD_CONFIG = /usr/bin/esd-config
-ESD_LIBS = -L/usr/lib -lesd -laudiofile -lm
+ESD_CONFIG = no
+ESD_LIBS = 
 GDK_IMLIB_CFLAGS = @GDK_IMLIB_CFLAGS@
 GDK_IMLIB_LIBS = @GDK_IMLIB_LIBS@
 IMGDIR = /usr/local/share/qvwm/images
-IMLIB_CFLAGS = -I/usr/X11R6/include
-IMLIB_CONFIG = /usr/bin/imlib-config
-IMLIB_LIBS = -L/usr/lib -lImlib -ljpeg -ltiff -lungif -lpng -lz -lm -lXext -L/usr/X11R6/lib -lSM -lICE -lXext -lX11
+IMLIB_CFLAGS = 
+IMLIB_CONFIG = no
+IMLIB_LIBS = 
 LEX = flex
 LN_S = ln -s
 MAINT = #
-MAKEINFO = makeinfo
+MAKEINFO = /Projects/qvwm/missing makeinfo
 PACKAGE = qvwm
 PATH_RM = /bin/rm
 QVWMDIR = /usr/local/share/qvwm
@@ -141,9 +141,9 @@ PROGRAMS =  $(bin_PROGRAMS)
 
 CPPFLAGS = 
 LDFLAGS = 
-LIBS =  -lSM -lICE -lXss -L/usr/lib -lImlib -ljpeg -ltiff -lungif -lpng -lz -lm -lXext -L/usr/X11R6/lib -lSM -lICE -lXext -lX11 -lXext -lX11  -L/usr/X11R6/lib   -L/usr/lib -lesd -laudiofile -lm
-X_CFLAGS =  -I/usr/X11R6/include
-X_LIBS = -lXss -L/usr/lib -lImlib -ljpeg -ltiff -lungif -lpng -lz -lm -lXext -L/usr/X11R6/lib -lSM -lICE -lXext -lX11 -lXext -lX11  -L/usr/X11R6/lib
+LIBS =  -lSM -lICE -lXpm -lXext -lX11   
+X_CFLAGS = 
+X_LIBS = -lXpm -lXext -lX11 
 X_EXTRA_LIBS = 
 X_PRE_LIBS =  -lSM -lICE
 qvwm_OBJECTS =  main.o qvwm.o frame.o titlebar.o window.o move.o \
@@ -160,13 +160,13 @@ audiodev_alsa.o audiodev_esd.o audiodev_oss.o audiodev_sun.o \
 remote_cmd.o
 qvwm_DEPENDENCIES = 
 qvwm_LDFLAGS = 
-CXXFLAGS = -g -O2  -I/usr/X11R6/include  -I/usr/X11R6/include  -fpermissive
+CXXFLAGS = -g -O2   -fpermissive
 CXXCOMPILE = $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
 CXXLD = $(CXX)
 CXXLINK = $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(LDFLAGS) -o $@
 LEX_OUTPUT_ROOT = lex.yy
 LEXLIB = -lfl
-CFLAGS = -g -O2  -I/usr/X11R6/include  -fpermissive
+CFLAGS = -g -O2   -fpermissive
 COMPILE = $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 CCLD = $(CC)
 LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(LDFLAGS) -o $@

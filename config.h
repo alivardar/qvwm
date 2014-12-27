@@ -12,7 +12,7 @@
 #define ALLOW_RMTCMD 1
 
 /* Define if you want to use Imlib */
-#define USE_IMLIB 1
+/* #undef USE_IMLIB */
 
 /* Define if the X shape extension is available */
 #define USE_SHAPE 1
@@ -24,13 +24,13 @@
 /* #undef USE_ALSA */
 
 /* Define if you want to use esd (EsounD) for sound effects */
-#define USE_ESD 1
+/* #undef USE_ESD */
 
 /* Define if you want to use screen saver functions */
 #define USE_SS 1
 
 /* Define if the X screen saver extension is available */
-#define USE_SSEXT 1
+/* #undef USE_SSEXT */
 
 /* Define if the X server supports locale functions */
 /* #undef X_LOCALE */
