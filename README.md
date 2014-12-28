@@ -4,8 +4,11 @@ qvwm
 Developers
 ====
 Kenichi Kourai http://www.csg.is.titech.ac.jp/~kourai/
+
 Jim Huang jserv at kaffe dot org
+
 M.Ali VARDAR ali at linuxprogramlama dot com
+
 Ben Ford bford at eecs dot wsu dot edu
 
 Changes
