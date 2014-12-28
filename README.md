@@ -7,27 +7,35 @@ Jim Huang
 M.Ali VARDAR 
 Ben Ford 
 
-Changes
-New desktop icon application written
-"New desktop icon" and "background picture" applications now support apply changes. You don't need qvwm restart.
-Mr.Kenichi send qvwm-1.2.0-pre release this release support taskbar launcher
-qvwm-sound added in qvwm-util package
-New qvwm screenshot added
-qvwm-net renew by Ben FORD and some new features included, now qvwm-net work with pppmon.
-pppmon included in qvwm util package
-New Application qvwm-desklaunch added in qvwm util package
-Provide a way to restart QVWM by touch /tmp/qvwm-restart It's useful for programs to change the settings of QVWM.
-Solve the problem of missing title bar while running Java Swing application.
-Provide better guess on default font using.
-Fix the intersect algorithm
-Added Save Desktop icons position
-Configuration files added in $HOME/.qvwm directory and redesigned
-Removed ani files supported (its allready removed in qvwm2)
-Numlock or/and capslock if activated windows cant focused its fixed
-Edited qvwm-run application
-Added new configuration application qvwm-background
-Added new application qvwm-net
 
 ![Alt text](http://www.linuxprogramlama.com/images/qvwm.jpg "Optional title")
 
+Changes
 
+jim Huang jimchyun@ccns.ncku.edu.tw - 2004 Changes List 
+Qvwm Codename Laserion
+- qvwm-auto-restart.diff
+  Provide a way to restart QVWM by touch /tmp/qvwm-restart.
+  It's useful for programs to change the settings of QVWM.
+- qvwm-fix-title.diff
+  Solve the problem of missing title bar while running Java Swing
+  application.
+- qvwm-guess-defaultfont.diff
+  Provide better guess on default font using.
+- qvwm-fix-intersect.diff
+  Fix the intersect algorithm.
+---------------------------------------------------------------------
+M.Ali VARDAR ali@linuxprogramlama.com - 2003 Changes List
+Qvwm Codename Laserion
+
+- Added new configuration application qvwm-background (in utils package)
+- Added new application qvwm-net (in utils package)
+- Edited qvwm-run application (in utils package)
+- Numlock or/and capslock if activated windows cant focused its fixed
+- Removed ani files supported (its allready removed in qvwm2)
+- All icons renew xpm file formatted and configuration files
+- Added Save Desktop icons position  (only exit)
+- Configuration files added in $HOME/.qvwm directory and redesigned
+
+more information
+See doc/*.
