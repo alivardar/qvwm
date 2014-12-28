@@ -7,6 +7,7 @@ Kenichi Kourai http://www.csg.is.titech.ac.jp/~kourai/
 Jim Huang jserv at kaffe dot org
 M.Ali VARDAR ali at linuxprogramlama dot com
 Ben Ford bford at eecs dot wsu dot edu
+
 Changes
 ====
 New desktop icon application written
@@ -28,4 +29,7 @@ Numlock or/and capslock if activated windows cant focused its fixed/li>
 Edited qvwm-run application
 Added new configuration application qvwm-background
 Added new application qvwm-net
+
+![Alt text](http://www.linuxprogramlama.com/images/qvwm.jpg "Optional title")
+
 
