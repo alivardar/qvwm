@@ -1,12 +1,8 @@
 qvwm
 ----------------------
+Qvwm is window manager for X11. This source uploaded from http://www.linuxprogramlama.com 
 
-Developers
-Kenichi Kourai http://www.csg.is.titech.ac.jp/~kourai/
-Jim Huang 
-M.Ali VARDAR 
-Ben Ford 
-
+Main code  is from http://qvwm.sf.net
 
 ![Alt text](http://www.linuxprogramlama.com/images/qvwm.jpg "Optional title")
 
