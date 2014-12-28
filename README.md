@@ -25,7 +25,7 @@ Fix the intersect algorithm
 Added Save Desktop icons position
 Configuration files added in $HOME/.qvwm directory and redesigned
 Removed ani files supported (its allready removed in qvwm2)
-Numlock or/and capslock if activated windows cant focused its fixed/li>
+Numlock or/and capslock if activated windows cant focused its fixed
 Edited qvwm-run application
 Added new configuration application qvwm-background
 Added new application qvwm-net
