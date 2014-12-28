@@ -8,7 +8,7 @@ Main code  is from http://qvwm.sf.net
 
 Changes
 
-jim Huang jimchyun@ccns.ncku.edu.tw - 2004 Changes List 
+jim Huang  - 2004 Changes List 
 Qvwm Codename Laserion
 - qvwm-auto-restart.diff
   Provide a way to restart QVWM by touch /tmp/qvwm-restart.
@@ -21,7 +21,7 @@ Qvwm Codename Laserion
 - qvwm-fix-intersect.diff
   Fix the intersect algorithm.
 ---------------------------------------------------------------------
-M.Ali VARDAR ali@linuxprogramlama.com - 2003 Changes List
+M.Ali VARDAR - 2003 Changes List
 Qvwm Codename Laserion
 
 - Added new configuration application qvwm-background (in utils package)
