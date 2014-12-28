@@ -2,14 +2,12 @@ qvwm
 ----------------------
 
 Developers
-----------------------
 Kenichi Kourai http://www.csg.is.titech.ac.jp/~kourai/
 Jim Huang 
 M.Ali VARDAR 
 Ben Ford 
 
 Changes
-----------------------
 New desktop icon application written
 "New desktop icon" and "background picture" applications now support apply changes. You don't need qvwm restart.
 Mr.Kenichi send qvwm-1.2.0-pre release this release support taskbar launcher
