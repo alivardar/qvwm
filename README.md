@@ -4,8 +4,6 @@ Qvwm is window manager for X11. This source uploaded from http://www.linuxprogra
 
 Main code  is from http://qvwm.sf.net
 
-![Alt text](http://www.linuxprogramlama.com/images/qvwm.jpg "Optional title")
-
 Changes
 
 jim Huang  - 2004 Changes List 
