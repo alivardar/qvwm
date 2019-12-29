@@ -1,11 +1,11 @@
 qvwm
 ----------------------
-Qvwm is window manager for X11. This source uploaded from http://www.linuxprogramlama.com 
+Qvwm is a window manager for X11 developed firstly by Kenichi Kourai. This source uploaded from http://www.linuxprogramlama.com 
 
 Main code  is from http://qvwm.sf.net
 
 Changes
-
+---------------------------------------------------------------
 jim Huang  - 2004 Changes List 
 Qvwm Codename Laserion
 - qvwm-auto-restart.diff
@@ -19,6 +19,7 @@ Qvwm Codename Laserion
 - qvwm-fix-intersect.diff
   Fix the intersect algorithm.
 ---------------------------------------------------------------------
+
 M.Ali VARDAR - 2003 Changes List
 Qvwm Codename Laserion
 
@@ -33,3 +34,5 @@ Qvwm Codename Laserion
 
 more information
 See doc/*.
+
+![Alt text](https://github.com/alivardar/qvwm-utils/blob/master/qvwm.png "Optional title")
